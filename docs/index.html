@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>GraphRouter: A Graph-Based Router for LLM Selections</title>
+  <title>Thought-Retriever: Don't Just Retrieve Raw Data, Retrieve Thoughts</title>
 
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
@@ -57,41 +57,53 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">GraphRouter: A Graph-Based Router for LLM Selections</h1>
+            <h1 class="title is-1 publication-title">Thought-Retriever: Don't Just Retrieve Raw Data, Retrieve Thoughts</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                Tao Feng,
+                Tao Feng<sup>1*</sup>,
               </span>
                 <span class="author-block">
-                  Yanzhen Shen,
+                  Pengrui Han<sup>1,2*</sup>,
                 </span>
                   <span class="author-block">
+                    Guanyu Lin<sup>1,3*</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://www.mit.edu/~geliu/" target="_blank">Ge Liu</a><sup>1</sup>,</span>
+                  <span class="author-block">
                     <span class="author-block">
-                      <a href="https://cs.stanford.edu/~jiaxuan/" target="_blank">Jiaxuan You</a></span>
+                      <a href="https://cs.stanford.edu/~jiaxuan/" target="_blank">Jiaxuan You</a><sup>1</sup></span>
                     <span class="author-block">
                 
                   </div>
              
                   <div class="is-size-5 publication-authors">
                     <span class="author-block">
-                      University of Illinois Urbana-Champaign
+                      <sup>1</sup>University of Illinois Urbana-Champaign,
+                      <sup>2</sup>Carleton College,
+                      <sup>3</sup>Carnegie Mellon University
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Equal contribution</small></span>
                   </div>
 
-                  <!-- ArXiv abstract Link -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/pdf/2410.03834" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2402.07456.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/ulab-uiuc/GraphRouter" target="_blank"
+                    <a href="https://github.com/OS-Copilot/FRIDAY" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -100,7 +112,39 @@
                   </a>
                 </span>
 
-        
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2402.07456" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+
+                  <!-- Benchmark -->
+                  <span class="link-block">
+                  <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fa-solid fa-database"></i>
+                  </span>
+                  <span>AcademicEval</span>
+                </a>
+              </span>
+
+                  <!-- Demo -->
+                  <span class="link-block">
+                    <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fa-regular fa-user"></i>
+                    </span>
+                    <span>Demo</span>
+                  </a>
+                </span>
+
             </div>
           </div>
         </div>
@@ -120,6 +164,57 @@
     </div>
   </div>
 </section> -->
+<section class="section hero">  
+  <div class="container is-max-desktop">
+    We will replace this with our demo videos 
+      <div class="columns is-justify-content-center">
+        <div class="column is-6"> <!-- 这里设置为占用一半的宽度 -->
+          <!-- <video poster="" id="tree" autoplay controls muted loop height="100%">
+            <source src="static/videos/excel.mov" type="video/mp4">
+          </video> -->
+          <div class="video-container">
+            <video poster="" id="video1" autoplay controls muted loop height="100%">
+              <source src="static/videos/excel.mov" type="video/mp4">
+            </video>
+            <p class="has-text-centered"><b>Demo1: Operating Excel Files.</b></p>
+          </div>
+        </div>
+        <div class="column is-6"> <!-- 这里设置为占用一半的宽度 -->
+          <video poster="" id="tree" autoplay controls muted loop height="100%">
+            <source src="static/videos/react_website.mov" type="video/mp4">
+          </video>
+          <p class="has-text-centered"><b>Demo2: Creating a Webpage.</b></p>
+        </div>
+    </div>  
+      <div class="columns">  
+          <div class="column is-6">
+              <div class="video-container">  
+                <video poster="" id="tree" autoplay controls muted loop height="100%">
+            
+                  <source src="static/videos/enter_focused_mode.mov"
+                  type="video/mp4">
+                </video>
+                <p class="has-text-centered"><b>Demo3: Entering Focused Mode.</b></p>
+              </div>  
+          </div>  
+          <div class="column is-6">  
+              <div class="video-container">  
+                <video poster="" id="tree" autoplay controls muted loop height="100%">
+            
+                  <source src="static/videos/play_mosic.mov"
+                  type="video/mp4">
+                </video>
+                <p class="has-text-centered"><b>Demo4: Playing Music.</b></p>
+              </div>  
+       
+      </div>
+    </div>
+      <div>
+        <p><b>(Stay tuned! More demos are coming soon~)</b></p>
+      </div>  
+  </div>  
+</section>  
+
 <!-- End teaser video -->
 
 <!-- Paper abstract -->
@@ -130,7 +225,8 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            The rapidly growing number and variety of Large Language Models (LLMs) present significant challenges in efficiently selecting the appropriate LLM for a given query, especially considering the trade-offs between performance and com- putational cost. Current LLM selection methods often struggle to generalize across new LLMs and different tasks because of their limited ability to leverage contextual interactions among tasks, queries, and LLMs, as well as their dependence on a transductive learning framework. To address these shortcomings, we introduce a novel inductive graph framework, named as GraphRouter, which fully utilizes the contextual information among tasks, queries, and LLMs to enhance the LLM selection process. GraphRouter constructs a heterogeneous graph comprising task, query, and LLM nodes, with interactions represented as edges, which ef- ficiently captures the contextual information between the query's requirements and the LLM's capabilities. Through an innovative edge prediction mechanism, GraphRouter is able to predict attributes (the effect and cost of LLM response) of potential edges, allowing for optimized recommendations that adapt to both existing and newly introduced LLMs without requiring retraining. Comprehen- sive experiments across three distinct effect-cost weight scenarios have shown that GraphRouter substantially surpasses existing routers, delivering a minimum per- formance improvement of 12.3%. In addition, it achieves enhanced generalization across new LLMs settings and supports diverse tasks with at least a 9.5% boost in effect and a significant reduction in computational demands. This work endeavors to apply a graph-based approach for the contextual and adaptive selection of LLMs, offering insights for real-world applications.
+            Large language models (LLMs) have transformed AI research thanks to their powerful internal capabilities and knowledge. However, existing LLMs still fail to effectively incorporate the massive external knowledge when interacting with the world. Although retrieval-augmented LLMs are proposed to mitigate the issue, they are still fundamentally constrained by the context length of LLMs, as they can only retrieve top-K raw data chunks from the external knowledge base which often consists of millions of data chunks. Here we propose Thought-Retriever, a novel model-agnostic algorithm that helps LLMs generate output conditioned on arbitrarily long external data, without being constrained by the context length or number of retrieved data chunks. Our key insight is to let an LLM fully leverage its intermediate thoughts generated when solving past user queries, organizing them in thought memory, and retrieving the relevant thoughts when addressing new queries. Notably, Thought-Retriever can self-evolve through continuous user interactions thanks to the growing number and depth of thoughts. Besides algorithmic innovation, we further meticulously prepare a novel benchmark, AcademicEval, which requires an LLM to faithfully leverage ultra-long context to answer queries based on real-world academic papers. Extensive experiments on AcademicEval and two other datasets validate that Thought-Retriever remarkably outperforms state-of-the-art baselines by achieving a 5%-45% higher win rate. More importantly, we further demonstrate 2 exciting findings: (1) Thought-Retriever can indeed help LLM self-evolve after solving more user queries; (2) Thought-Retriever learns to leverage deeper thoughts to answer more abstract user queries.
+
           </p>
         </div>
 
@@ -155,17 +251,10 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">1. Introduction</h2>
+        <h2 class="title is-3">1. Motivation</h2>
         <div class="content">
-
-          <div class="content has-text-justified">
-          
-            <p>The LLM selection process involves multiple steps, with the router being the most critical component. The router first receives the user query containing task information. Its goal is to choose an appropriate LLM based on the incoming information in the user query to ensure optimal performance and minimal cost (LLM API cost). After calculation, the router chooses a suitable LLMn to answer the user query. Finally, the response is returned to the user with its performance and cost. </p>
-            
-          </div>
-
           <div class=" has-text-centered">
-            <img src="static/images/intro_1.png" alt="MY ALT TEXT"/>
+            <img src="static/images/Motivation.png" alt="MY ALT TEXT"/>
           </div>
           <b class="subtitle is-size-6">
           </b>
@@ -180,9 +269,8 @@
         
         <div class="content has-text-justified">
           
-          <p>To fully utilize the contextual information for different queries and tasks, GraphRouter constructs a heterogeneous graph that contains three types of nodes: task node, query node and LLM node. The interaction information between them is represented as edges in a graph, which enables us to transform the task of predicting the cost and performance of an LLM-query pair to an edge prediction task. After forecasting the properties of the edges, we recommend the most suitable LLM to the user based on their preferences for performance and cost.</p>
-          
-          <p>In order to make GraphRouter generalizable to new LLMs, we make efforts in two key aspects. For the input, we utilize a generative LLM such as GPT-4o to generate a descriptive text for each LLM, and then we derive an initial embedding for each LLM using a moderate-size pre-trained language model. We also further develop a heterogeneous GNN that aggregates information from neighboring nodes of different types; As a result, given few-shot data, a trained GraphRouter can be generalized to new LLM nodes without retraining. </p>
+          <p>For instance, consider the scenario where an LLM can only process two data chunks in its context window, yet <span class="math-container">\( \mathcal{K}_i = \{K_1, K_2, K_3, K_4\} \)</span> are needed to fully answer a query. Traditional methods might retrieve accurately but fail to cover all relevant data, compromising either precision or recall.</p>
+          <p>In contrast, Thought-Retriever leverages past LLM thoughts and balances low-level facts and high-levle thoughts to answer user queries, offering a flexible and easy approach to achieve better information retrieval. </p>
           
        
         </div>
@@ -198,13 +286,44 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">2. The GraphRouter Framework</h2>
+        <h2 class="title is-3">2. The Thought-Retrievers Framework</h2>
         <div class="content">
           <div class=" has-text-centered">
-            <img src="static/images/intro_2.png" alt="MY ALT TEXT"/>
+            <img src="static/images/figure2.png" alt="MY ALT TEXT"/>
           </div>
+          <b class="subtitle is-size-6">
+            Thought-Retriever Framework: (a) Thought retrieval: Upon receiving a user query, Thought-Retriever retrieves top-K data
+            chunks from the mixture of external knowledge and thought memory based on embedding similarity; (b) Answer generation: The LLM generates the answer for the user query based on the retrieved data chunks; (c) Thought generation: The LLM further generates thought and its confidence based on the user query and the generated answer; (d) Thought memory update: Meaningless and redundant thoughts are removed and the remaining novel thoughts are used to update the thought memory. 
+          </b>
+        </div>
+
+        <h2 class="title is-4">a) Thought retrieval</h2>
+        <div class="content has-text-justified">
           <p>
-            GraphRouter first transforms the interaction data among tasks, queries, and LLMs into a graph. Specifically, as shown in the right side of Figure above, we model tasks, queries, and LLMs in the left table as task nodes, query nodes, and LLM nodes, while the relationships derived from the interaction data are represented by edge features. We apply GNN to embed the node and edge features and use them for training and testing.
+            After receiving a user query \(Q_i\), Thought-Retriever \(R\) retrieves relevant information \(T_i\) from
+            external knowledge \(K\) and previously generated thought
+            memory \(T\) via embedding similarity ranking. This process
+            is formulated as \(T_i \leftarrow R(Q_i, K \cup T)\).
+          </p>
+        </div>
+
+        <h2 class="title is-4">b) Answer Generation</h2>
+        <div class="content has-text-justified">
+          <p>
+            Based on the retrieved information \( \mathcal{T}_{i} \), we design a prompt to combine \( \mathcal{T}_{i} \) and user query \( Q_i \) and feed the prompt to an LLM \( L \) to get the answer \( A_i \). It can be articulated as 
+    \( A_i \gets L(Q_i, \mathcal{T}_{i}) \).
+          </p>
+        </div>
+        <h2 class="title is-4">c) Thought Generation</h2>
+        <div class="content has-text-justified">
+          <p>
+            We can generate thoughts via LLM \( L \) using the obtained answer \( A_i \) and its query \( Q_i \). However, redundant or meaningless thoughts during the generation process may harm the LLM performance. To solve this issue, we design a special prompt so that LLM \( L \) can generate thoughts \( T_i \) and thought quality confidence \( c_i \) based on the user's query \( Q_i \) and corresponding answer \( A_i \). This can be described as \( T_i, c_i \gets L(Q_i, A_i) \).
+          </p>
+        </div>
+        <h2 class="title is-4">d) Thought Memory Update</h2>
+        <div class="content has-text-justified">
+          <p>
+            The confidence of thought quality \(c_i\) is a boolean indicator that determines whether the newly generated thought should be updated into the thought memory \(\mathcal{T}\). Here, we design that if the LLM is confident about its answer, where \(c_i\) is True, \(\mathcal{T}\) will be updated.
           </p>
         </div>
 
@@ -212,6 +331,82 @@
     </div>
   </div>
 </section>
+
+
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">3. AcademicEval Benchmark</h2>
+        <div class="content">
+          <div class="content has-text-justified">
+            <p>
+              Current benchmarks for assessing agent long-context memory utilization involve tasks such as question-answering,
+              long-context summarization, and classification. Despite
+              being well-constructed, they are limited in flexibility and
+              real-world impact and are costly to acquire. To address these
+              issues, we introduce an innovative benchmark, AcademicEval, based on academic papers from arXiv collected on a
+              weekly basis. AcademicEval is superior in three aspects:
+            </p>
+            <ul>
+              <li>1) it dynamically collects the most up-to-date data
+              </li>
+              <li>
+                2) it
+                acquires high-quality labels at no additional cost
+              </li>
+              <li>
+                3)
+                it allows real-world applications with high impacts. AcademicEval comes with two datasets: abstract and related.
+    
+              </li>
+          </ul>
+
+            <p>
+              <b>
+              For a more detailed introduction to the benchmark and instructions on usage, please refer to this LINK.
+              </b>
+            </p>
+
+       
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">3. AcademicEval Benchmark</h2>
+        <div class="content has-text-justified">
+          <p>
+            More content here ...
+          </p>
+        </div> -->
+        <!-- <div class="container is-max-desktop" style="margin-bottom: 20px;">  
+          <div class="columns">  
+              <div class="column is-5">
+                  <div class="image">    
+                      <img src="static/images/working.png" alt="Image 1"> 
+                    </div> 
+                  <p style="margin: 10px 0;" class="subtitle is-6 has-text-centered">(a) Configurator</p>  
+              </div>
+              <div class="column is-1">
+            </div>  
+              <div class="column is-6">  
+                  <div class="image">  
+                      <img src="static/images/example.png"  alt="Image 2">  
+                  </div>  
+                  <p style="margin: 10px 0;" class="subtitle is-6 has-text-centered">(b) A running example</p>  
+              </div>  
+          </div>  
+      </div>   -->
+      <!-- Removed the Self-Directed Learning paragraph -->
+    <!-- </div>
+  </div>
+</section> -->
 
 <section class="section hero">
   <div class="container is-max-desktop">
@@ -221,8 +416,7 @@
         <h2 class="title is-4">4.1 Main Results</h2>
         <div class="content has-text-justified">
           <p>
-            We compare GraphRouter with seven baselines in three scenarios. We can observe that GraphRouter consistently and substantially surpasses existing routers, delivering a minimum effect improvement of 12.28% on metric Reward compared to the strongest baselines. Additionally, we observe that GraphRouter achieves at least 88.89% of the optimal solution, further demonstrating the superiority of our framework. On the other hand, compared with the two rule-based LLM, GraphRouter achieves a better trade-off between Performance and Cost, therefore achieving a higher effect on Reward. We demonstrate that without sufficient contextualized information, even LLM and trained moderate-size LM struggle to understand the query and candidates LLM effectively, even if we ignore their high inference costs. These comparisons and results validate our claim that effective usage of contextual information is crucial for selecting the optimal LLM.
-
+            Experiments on our AcademicEval benchmark and public benchmarks validate that Thought-Retriever remarkably outperforms state-of-the-art baselines.
           </p>
         </div>
         <div class="content">
@@ -233,19 +427,109 @@
         </div>
       
 
-        <h2 class="title is-4">4.2 Generalization ability to new LLMs</h2>
+        <h2 class="title is-4">4.2 Qualitative Analysis</h2>
         <div class="content has-text-justified">
           <p>
-            In addition to the main results, we also validate the generalization ability of GraphRouter when facing new LLMs. 
+            In addition to the main results, we also identified three interesting and insightful findings that further support the promising nature of our Thought-Retriever framework.
           </p>
         </div>
-        
+
+        <h2 class="title is-5">(a) Self-evolve</h2>
+        <div class="content has-text-justified">
+          <p>
+            <!-- To investigate the relationship between the performance of Thought-Retriever and the number of thoughts, we design an experiment using varying numbers of thoughts on Abstract-multi and Related-multi of AcademicEval. As depicted in Fig (a), there is a distinct trend of increasing F1 scores correlating with the growing number of thoughts, which indicates improved performance. Therefore, more interactions with the users enable Thought-Retriever to assist LLMs in self-evolving and developing deeper understandings, demonstrating a new type of <a href="https://arxiv.org/pdf/2001.08361.pdf"> scailing law </a>.  -->
+            The experiment results, shown in Figure (a), demonstrates that more interactions with he users enable Thought-Retriever to assist LLMs in self-evovling and developing deep understanding, demonstrating a new type of <a href="https://arxiv.org/pdf/2001.08361.pdf"> scailing law </a>.
+          </p>
+        </div>
+
+        <h2 class="title is-5"> (b) Deeper thoughts help abstract queries </h2>
+        <div class="content has-text-justified">
+          <p>
+            <!-- We conduct a case study to explore the relationship between the abstraction levels of queries and the retrieved information. Specifically, we created a set of questions with varying levels of abstraction and ranked them according to their abstraction level using GPT-4. For the retrieved information abstraction level, we first assigned all the raw segments of text from the external knowledge base an abstraction level of 1. The abstraction thought is then calculated as the average abstraction level of all the segments it retrieves, plus one. For example, a thought based solely on the external knowledge base would have an abstraction level of 2. If it also incorporates other thoughts, its abstraction level would be higher. As shown in Fig (b), where the y-axis represents the abstraction level of the question and the x-axis represents the average abstraction level of all information retrieved by our method.  It can be observed that more abstract questions tend to retrieve information with higher abstraction levels. -->
+
+            The experiment illustrated in Figure (b), where the y-axis represents the question's abstraction level and the x-axis denotes the average abstraction level of all information retrieved by our method, demonstrates that Thought-Retriever tends to utilize deeper thoughts when addressing more abstract queries.
+          </p>
+        </div>
+
+        <h2 class="title is-5"> (c) Better recall and precision balance </h2>
+        <div class="content has-text-justified">
+          <p>
+            <!-- In our motivation example, we showcase where traditional methods fell short in achieving good recall and precision values. Here, we conduct a case study on our Related-multi dataset, where we demonstrate that when compared to other baselines, our Thought-Retriever significantly performs better in balancing recall and precision. 
+
+            In the experiment, the related work section of the case study includes 22 papers, which is regarded as the ground truth of retrieval. We aimed to assess how well different retrievers could cover these 22 papers, given the limitation of retrieving only 8 chunks of information at a time. We plotted the findings in Fig (c), where the x-axis is the recall value and the y-axis represents the precision. It can be observed that all traditional retrieval methods displayed significantly low recall values. This is primarily attributed to the top-K retrieval limit, which, in this scenario, could only encompass at most 8 out of the 22 papers. In comparison, Thought-Retriever demonstrates a notable improvement in recall value. This is because it leverages thoughts which is constructed from multiple papers, thereby allowing Thought-Retriever to achieve a much higher recall. More importantly, Thought-Retriever also exhibits moderately high precision compared to other retrievers. This suggests that, despite a minor trade-off, Thought-Retriever does not significantly compromise its ability to retrieve the most relevant information. -->
+
+            In the motivational example, we highlighted where traditional methods fell short in achieving satisfactory recall and precision values. Here, in the experiment depicted in Figure (c), we demonstrate that, compared with state-of-the-art retrievers, Thought-Retriever, despite a minor trade-off, does not significantly compromise its ability to retrieve the most relevant information (a notable improvement in recall value), thereby achieving a better balance between precision and recall.
+
+          </p>
+        </div>
+
+        <div class="content">
+          
+          
+        </div>
+        <h2 class="title is-5"></h2>
+        <div class="container is-max-desktop" style="margin-bottom: 20px;">  
+          <div class="columns">  
+              <div class="column is-4">
+                  <div class="image">    
+                      <img src="static/images/self_evolve.png" alt="Image 1"> 
+                    </div> 
+                  <p style="margin: 10px 0;" class="subtitle is-6 has-text-centered"><b> (a) Self-evolve</b> </p>  
+                  <!-- This figure illustrate the agent's performanc across various datasets as the number of thoughts increases -->
+              </div>
+
+             
+
+              <div class="column is-4">
+                <div class="image">    
+                  <img src="static/images/deepth_abs.png" alt="Image 1"> 
+                </div> 
+              <p style="margin: 10px 0;" class="subtitle is-6 has-text-centered"> <b> (b) Deeper thoughts help abstract queries </b></p>  
+              <!-- This figure il-
+                lustrates the correlation between six questions, categorized by their
+                level of abstraction as evaluated by GPT-4 (x-axis), and the abstraction level of the corresponding retrieved information (y-axis). -->
+              </div>
+              
+              <!-- <div class="column is-0.2">
+              </div> 
+           -->
+              <div class="column is-4">
+                <div class="image">    
+                  <img src="static/images/precision_recall.png" alt="Image 1"> 
+                </div> 
+              <p style="margin: 10px 0;" class="subtitle is-6 has-text-centered"> <b> (b) Better recall and precision balance </b></p>  
+              <!-- This figure il-
+                lustrates the correlation between six questions, categorized by their
+                level of abstraction as evaluated by GPT-4 (x-axis), and the abstraction level of the corresponding retrieved information (y-axis). -->
+              </div>
+
+          </div>  
+
+          
+
+  
+          
+        </div> 
+        <div class="content has-text-justified">
+          <p>
+            More Content here....
+          </p>
+          
+        </div>
+
+        <h2 class="title is-4">4.3 Interaction with other LLMs agent</h2>
+        <div class="content has-text-justified">
+          <p>
+            Forming thoughts can be a lengthy process. When a new agent lacks relevant memory or external knowledge, it is challenging to develop high-quality thoughts and memories from scratch. Consequently, we conducted cases study to show that Thought-Retriever can help the agent quickly learn from other agents who have already formed expert knowledge.
+          </p>
+        </div>
         <div class="content">
           <div class=" has-text-centered">
-            <img src="static/images/Generalization.png"  alt="MY ALT TEXT"/>
+            <img src="static/images/MultiAgent.png"  alt="MY ALT TEXT"/>
           </div>
   
         </div>
+   
 
       </div>
     </div>
@@ -381,19 +665,25 @@
   </div>
 </section> -->
 
-<!--BibTeX citation -->
-<section class="section" id="BibTeX">
-  <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
-    <pre><code>@inproceedings{feng2024graphrouter,
-  title={GraphRouter: A Graph-based Router for LLM Selections},
-  author={Feng, Tao and Shen, Yanzhen and You, Jiaxuan},
-  booktitle={The Thirteenth International Conference on Learning Representations},
-  year={2024}
-}</code></pre>
-  </div>
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>
+        
+        <!-- @misc{wu2024oscopilot,
+          title={OS-Copilot: Towards Generalist Computer Agents with Self-Improvement}, 
+          author={Zhiyong Wu and Chengcheng Han and Zichen Ding and Zhenmin Weng and Zhoumianze Liu and Shunyu Yao and Tao Yu and Lingpeng Kong},
+          year={2024},
+          eprint={2402.07456},
+          archivePrefix={arXiv},
+          primaryClass={cs.AI}
+        } -->
+
+      </code></pre>
+    </div>
 </section>
-<!--End BibTeX citation -->
+<!--End BibTex citation -->
 
 
   <footer class="footer">
