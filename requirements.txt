@@ -1,0 +1,9 @@
+openai==0.28
+pandas
+tiktoken
+tqdm
+bert_score
+rouge_score
+networkx
+faiss-gpu
+transformers
