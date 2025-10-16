@@ -4,7 +4,7 @@
     <a href="https://ulab-uiuc.github.io/Thought-Retriever/">
         <img alt="Build" src="https://img.shields.io/badge/Project-Page-blue">
     </a>
-    <a href="http://arxiv.org/abs/2410.03834">
+    <a href="https://openreview.net/pdf?id=sOSAu0XQcI">
         <img alt="Build" src="https://img.shields.io/badge/arXiv-2410.11001-red?logo=arxiv">
     </a>
     <a href="https://x.com/taofeng_uiuc/status/1914914682860695559">
@@ -28,7 +28,7 @@
 
 <p align="center">
     <a href="https://ulab-uiuc.github.io/Thought-Retriever/">🌐 Project Page</a> |
-    <a href="http://arxiv.org/abs/2410.03834">📜 arXiv</a> |
+    <a href="https://openreview.net/pdf?id=sOSAu0XQcI">📜 arXiv</a> |
     <a href="https://x.com/taofeng_uiuc/status/1914914682860695559">📮 Twitter Post</a>
 <p>
 
