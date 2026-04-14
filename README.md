@@ -1,4 +1,5 @@
-# Thought-Retriever: Don’t Just Retrieve Raw Data, Retrieve Thoughts
+# Thought-Retriever: Don’t Just Retrieve Raw Data, Retrieve Thoughts for Memory-Augmented Agentic Systems
+
 
 <p align="center">
     <a href="https://ulab-uiuc.github.io/Thought-Retriever/">
