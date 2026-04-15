@@ -46,9 +46,6 @@
 
 **[2026.04.13]** 🌟 **Thought-Retriever** is accepted for TMLR 2026.
 
-**[2024.06.22]** 🌟 **Thought-Retriever** is accepted for ICLR 2024 Workshop.
-
-
 
 ## 📌Preliminary
 
