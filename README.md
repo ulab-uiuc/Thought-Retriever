@@ -29,8 +29,8 @@
 
 <p align="center">
     <a href="https://ulab-uiuc.github.io/Thought-Retriever/">🌐 Project Page</a> |
-    <a href="https://openreview.net/pdf?id=sOSAu0XQcI">📜 arXiv</a> |
-    <a href="https://x.com/taofeng_uiuc/status/1978973004206833710">📮 Twitter Post</a>
+    <a href="https://arxiv.org/pdf/2604.12231">📜 arXiv</a> |
+    <a href="https://x.com/TmlrPub/status/2044326160935395600">📮 Twitter Post</a>
 <p>
 
 
@@ -130,9 +130,10 @@ python llm_evaluation.py \
 ## Citation
 
 ```bibtex
-@article{feng2024thought,
+@inproceedings{feng2024thought,
   title={Thought-retriever: Don’t just retrieve raw data, retrieve thoughts},
   author={Feng, Tao and Han, Pengrui and Lin, Guanyu and Liu, Ge and You, Jiaxuan},
+  booktitle={ICLR 2024 Workshop: How Far Are We From AGI},
   year={2024}
 }
 ```
