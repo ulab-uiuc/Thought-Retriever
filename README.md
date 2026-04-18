@@ -130,11 +130,11 @@ python llm_evaluation.py \
 ## Citation
 
 ```bibtex
-@inproceedings{feng2024thought,
-  title={Thought-retriever: Don’t just retrieve raw data, retrieve thoughts},
+@article{feng2026thought,
+  title={Thought-Retriever: Don't Just Retrieve Raw Data, Retrieve Thoughts for Memory-Augmented Agentic Systems},
   author={Feng, Tao and Han, Pengrui and Lin, Guanyu and Liu, Ge and You, Jiaxuan},
-  booktitle={ICLR 2024 Workshop: How Far Are We From AGI},
-  year={2024}
+  journal={arXiv preprint arXiv:2604.12231},
+  year={2026}
 }
 ```
 
